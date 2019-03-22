@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="changeCusotmer" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.hd123.Switch" />
+    <option name="PROGRAM_PARAMETERS" value="LHHS,3,C:\hdhome" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

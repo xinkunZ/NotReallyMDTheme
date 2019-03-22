@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ESLintProjectComponent">
+    <option name="nodeInterpreter" value="" />
+  </component>
+  <component name="IssueNavigationConfiguration">
+    <option name="links">
+      <list>
+        <IssueNavigationLink>
+          <option name="issueRegexp" value="(JPOS|JPOSCS|OTTER|HDPOS|PSORG){1}\-\d\w+" />
+          <option name="linkRegexp" value="http://hddenv:8080/jira/browse/$0" />
+        </IssueNavigationLink>
+        <IssueNavigationLink>
+          <option name="issueRegexp" value="(?!.*(JPOS|JPOSCS|OTTER|HDPOS|PSRG)|\-)\w+-\d\w+" />
+          <option name="linkRegexp" value="http://jira6.app.hd123.cn/jira/browse/$0" />
+        </IssueNavigationLink>
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
