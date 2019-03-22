@@ -2,7 +2,7 @@
   "name": "NotReallyMDTheme",
   "dark": true,
   "author": "zhangxinkun-_-@outlook.com",
-  "editorScheme": "/Material Theme - zxk.xml",
+  "editorScheme": "/Material Theme.xml",
   "ui": {
     "*": {
       "separatorColor": "#2B3940",
@@ -10,16 +10,17 @@
       "borderColor": "#1F292E",
       "selectionBackground": "#3E6183",
       "disabledForeground": "#8C8C8C",
-      "modifiedItemForeground": "#ff666f",
+      "modifiedItemForeground": "#FF666F",
       "disabledText": "#8C8C8C",
       "inactiveForeground": "#8C8C8C",
       "infoForeground": "#808080",
-      "underlineColor": "#ff666f",
-      "focusColor": "#ff666f",
+      "underlineColor": "#FF666F",
+      "focusColor": "#FF666F",
       "selectedBackground": "#32424A"
     },
     "EditorTabs": {
-      "inactiveMaskColor": "#1F292E"
+      "inactiveMaskColor": "#1F292E",
+      "selectedBackground": "#2B4057"
     },
     "Popup": {
       "Header.activeBackground": "#415E83",
@@ -27,7 +28,7 @@
       "borderColor": "#21384E"
     },
     "SearchEverywhere": {
-      "Tab.selectedBackground": "#ff666f",
+      "Tab.selectedBackground": "#FF666F",
       "Header.background": "#2B4057"
     },
     "Borders.ContrastBorderColor": "#1F292E",
@@ -64,7 +65,7 @@
         "startBorderColor": "#21384E",
         "endBorderColor": "#21384E",
         "focusedBorderColor": "#21384E",
-        "shadowColor": "#ff666f"
+        "shadowColor": "#FF666F"
       }
     },
     "Tree": {
@@ -80,43 +81,47 @@
     },
     "TextField": {
       "background": "#32424A",
-      "highlight": "#ff666f"
+      "highlight": "#FF666F"
     },
     "StatusBar.borderColor": "#1F292E",
     "SplitPane.highlight": "#1F292E",
     "ProgressBar": {
-      "progressColor": "#ff666f",
+      "progressColor": "#FF666F",
       "trackColor": "#314763",
-      "passedColor": "#ff666f",
+      "passedColor": "#FF666F",
       "passedEndColor": "#314763",
-      "indeterminateStartColor": "#ff666f",
+      "indeterminateStartColor": "#FF666F",
       "indeterminateEndColor": "#88373C"
     },
     "Notification": {
-      "background": "#5E377D",
-      "borderColor": "#5E377D"
+      "background": "#52316E",
+      "borderColor": "#52316E"
     },
     "VersionControl": {
       "GitLog": {
-        "headIconColor": "#ff666f"
+        "headIconColor": "#FF666F"
       }
     },
     "Link": {
-      "activeForeground": "#ff666f",
-      "hoverForeground": "#ff666f",
-      "pressedForeground": "#ff666f",
-      "visitedForeground": "#ff666f",
+      "activeForeground": "#FF666F",
+      "hoverForeground": "#FF666F",
+      "pressedForeground": "#FF666F",
+      "visitedForeground": "#FF666F",
       "secondaryForeground": "#88373C"
     },
     "ParameterInfo": {
       "background": "#32424A",
       "lineSeparatorColor": "#32424A",
       "currentOverloadBackground": "#314763",
-      "currentParameterForeground": "#ff666f"
+      "currentParameterForeground": "#FF666F"
     },
     "CompletionPopup": {
-      "matchForeground": "#ff666f",
-      "matchSelectionForeground": "#ff666f"
+      "matchForeground": "#FF666F",
+      "matchSelectionForeground": "#FF666F"
+    },
+    "SearchMatch": {
+      "endBackground": "#FF666F",
+      "startBackground": "#FF666F"
     }
   },
   "icons": {
@@ -136,14 +141,14 @@
       "Objects.Purple": "#BC8AF2",
       "Objects.YellowDark": "#B79108",
       "Objects.BlackText": "#0D0E11",
-      "Checkbox.Focus.Wide.Dark": "#ff666f",
+      "Checkbox.Focus.Wide.Dark": "#FF666F",
       "Checkbox.Background.Default.Dark": "#F3F3F3",
       "Checkbox.Border.Default.Dark": "#8A9199",
       "Checkbox.Background.Selected.Dark": "#32424A",
       "Checkbox.Border.Selected.Dark": "#32424A",
-      "Checkbox.Foreground.Selected.Dark": "#75b6ff",
+      "Checkbox.Foreground.Selected.Dark": "#75B6FF",
       "Checkbox.Focus.Thin.Default.Dark": "#98A0AA4C",
-      "Checkbox.Focus.Thin.Selected.Dark": "#ff666f",
+      "Checkbox.Focus.Thin.Selected.Dark": "#FF666F",
       "Checkbox.Background.Disabled.Dark": "#98A0AA4C",
       "Checkbox.Border.Disabled.Dark": "#BABFC4",
       "Checkbox.Foreground.Disabled.Dark": "#BABFC4"

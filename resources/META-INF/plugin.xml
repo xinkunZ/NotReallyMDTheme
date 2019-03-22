@@ -1,34 +1,34 @@
 <idea-plugin>
-	<id>com.your.company.unique.plugin.id</id>
-	<name>Material Theme</name>
-	<version>1.0</version>
-	<vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ">xinkunZ's github</vendor>
+  <id>com.xinkun.theme.md</id>
+  <name>Material Design Dark-Theme</name>
+  <version>1.0</version>
+  <vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ">xinkunZ's github</vendor>
 
-	<description><![CDATA[
-      A jetbrains theme plugin use material design<br>
+  <description><![CDATA[
+      A jetbrains theme plugin use(may not) material design<br>
     ]]></description>
 
-	<change-notes><![CDATA[
-
+  <change-notes><![CDATA[
+    1. first upload the theme plugin
     ]]>
-	</change-notes>
+  </change-notes>
 
-	<!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-	<idea-version since-build="173.0" />
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0" />
 
-	<!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-			 on how to target different products -->
-	<!-- uncomment to enable plugin in all products
-	<depends>com.intellij.modules.lang</depends>
-	-->
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
 
-	<extensions defaultExtensionNs="com.intellij">
-		<!-- Add your extensions here -->
-		<themeProvider id="5eea4a19-c73f-4952-a924-0fb06e063e67" path="/MaterialTheme.theme.json" />
-	</extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="5eea4a19-c73f-4952-a924-0fb06e063e67" path="/MaterialTheme.theme.json" />
+  </extensions>
 
-	<actions>
-		<!-- Add your actions here -->
-	</actions>
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
 
 </idea-plugin>
