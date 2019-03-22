@@ -1,24 +1,14 @@
 {
-  "name": "MaterialTheme",
+  "name": "NotReallyMDTheme",
   "dark": true,
   "author": "zhangxinkun-_-@outlook.com",
   "editorScheme": "/Material Theme - zxk.xml",
   "ui": {
-    "Panel": {
-      "background": "#1F292E"
-    },
-    "Menu": {
+    "*": {
       "separatorColor": "#2b3940",
       "background": "#1F292E",
-      "borderColor": "#1F292E"
-    },
-    "ToolBar.borderHandleColor": "#1F292E",
-    "*": {
-      "focusColor": "#c14349",
-      "Separator.separatorColor": "#434649",
-      "background": "#1F292E",
       "borderColor": "#1F292E",
-      "selectionBackground": "#c14349",
+      "selectionBackground": "#3E6183",
       "disabledForeground": "#8C8C8C",
       "modifiedItemForeground": "#D84B52",
       "disabledText": "#8C8C8C",
@@ -77,8 +67,8 @@
     },
     "Tree": {
       "rowHeight": 23,
-      "selectionInactiveBackground": "#88373c",
-      "selectionBackground": "#D84B52"
+      "selectionInactiveBackground": "#415e83",
+      "selectionBackground": "#3E6183"
     },
     "ComboBoxButton.background": "#21384E",
     "ComboBox": {
