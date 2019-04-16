@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.xinkun.theme.md</id>
   <name>Material Design Dark-Theme</name>
-  <version>1.0</version>
+  <version>1.2</version>
   <vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ">xinkunZ's github</vendor>
 
   <description><![CDATA[
@@ -9,7 +9,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
-    1. first upload the theme plugin
+    1. adjust plugin page background color
     ]]>
   </change-notes>
 
@@ -18,9 +18,8 @@
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <!-- uncomment to enable plugin in all products
+  <!--  enable plugin in all products -->
   <depends>com.intellij.modules.lang</depends>
-  -->
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->

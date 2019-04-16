@@ -1,15 +1,14 @@
 <scheme name="Material Theme - zxk " version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-03-19T09:28:16</property>
+    <property name="created">2019-04-11T13:33:18</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2018.3.6.0.0</property>
-    <property name="modified">2019-03-19T09:28:21</property>
-    <property name="originalScheme">Material Theme - zxk</property>
+    <property name="ideVersion">2019.1.1.0.0</property>
+    <property name="modified">2019-04-11T13:33:23</property>
+    <property name="originalScheme">_@user_Material Theme - zxk</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="445d63" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
-    <option name="BORDER_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="2d3b43" />
     <option name="CONSOLE_BACKGROUND_KEY" value="263238" />
@@ -42,7 +41,6 @@
     <option name="MODIFIED_LINES_COLOR" value="99b89d" />
     <option name="MT_NOT_CHANGED" value="d1d1d1" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
-    <option name="READONLY_BACKGROUND" value="" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="2e3c43" />
@@ -322,6 +320,12 @@
         <option name="FOREGROUND" value="82b1ff" />
       </value>
     </option>
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="913a90" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f77669" />
@@ -359,7 +363,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="6ceeff" />
+        <option name="FOREGROUND" value="3cceff" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -413,12 +417,12 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="d3fffd" />
+        <option name="FOREGROUND" value="b389c5" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="38d4a1" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -429,7 +433,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="82b1ff" />
+        <option name="FOREGROUND" value="779dff" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -475,12 +479,13 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="8080c0" />
+        <option name="FOREGROUND" value="f77669" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="8080c0" />
+        <option name="FOREGROUND" value="f77669" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -735,15 +740,14 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="c792ea" />
-        <option name="BACKGROUND" value="777777" />
+        <option name="BACKGROUND" value="494949" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="b389c5" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="IVAR">
@@ -1665,17 +1669,11 @@
         <option name="FOREGROUND" value="a196" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="8080c0" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8080c0" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="f77669" />
+        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1850,12 +1848,6 @@
     <option name="osmorc.headerName">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="913a90" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>

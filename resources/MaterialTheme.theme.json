@@ -100,8 +100,19 @@
     "VersionControl": {
       "GitLog": {
         "headIconColor": "#FF666F"
+      },
+      "Log": {
+        "Commit.currentBranchBackground": "#212e43"
       }
     },
+    "Plugins": {
+      "lightSelectionBackground": "#212e43",
+      "Tab.selectedBackground": "#415E83",
+      "tagBackground": "#1F292E",
+      "tagForeground": "#FF666F"
+    },
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#32424A",
+    "Table.stripeColor": "#32424A",
     "Link": {
       "activeForeground": "#FF666F",
       "hoverForeground": "#FF666F",
@@ -122,7 +133,8 @@
     "SearchMatch": {
       "endBackground": "#FF666F",
       "startBackground": "#FF666F"
-    }
+    },
+    "ScrollBar.Transparent.hoverThumbColor": "#FF666F"
   },
   "icons": {
     "ColorPalette": {
