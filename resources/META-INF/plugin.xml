@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.xinkun.theme.md</id>
   <name>Material Design Dark-Theme</name>
-  <version>1.2</version>
+  <version>1.3</version>
   <vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ">xinkunZ's github</vendor>
 
   <description><![CDATA[
@@ -9,6 +9,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
+    1.3 add border for not need edit textfield(eg: Main class textfield in run/debug application configuration)
     1.2 adjust some stripeColor
     1.1 adjust plugin page background color
     ]]>

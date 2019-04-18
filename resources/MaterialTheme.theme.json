@@ -83,6 +83,7 @@
       "background": "#32424A",
       "highlight": "#FF666F"
     },
+    "Component.borderColor": "#32424A",
     "StatusBar.borderColor": "#1F292E",
     "SplitPane.highlight": "#1F292E",
     "ProgressBar": {
