@@ -9,7 +9,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
-    1.4 add circular progress indicator(thanks for loading.io)
+    1.4 add circular progress indicator(thanks for loading.io)<br/>
     1.3 add border for not need edit textfield(eg: Main class textfield in run/debug application configuration)<br/>
     1.2 adjust some stripeColor<br/>
     1.1 adjust plugin page background color<br/>
