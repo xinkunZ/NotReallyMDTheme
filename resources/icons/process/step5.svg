@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" class="lds-double-ring" preserveAspectRatio="xMidYMid"
+  style="shape-rendering:auto;animation-play-state:running;animation-delay:0s;background:none" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="none" stroke="rgb(100%,40%,43.52941176470587%)"
+    stroke-dasharray="62.83185307179586 62.83185307179586" stroke-linecap="round" stroke-width="8"
+    style="animation-play-state:running;animation-delay:0s" transform="rotate(180 50 50)" />
+</svg>

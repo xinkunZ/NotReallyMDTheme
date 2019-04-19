@@ -138,6 +138,14 @@
     "ScrollBar.Transparent.hoverThumbColor": "#FF666F"
   },
   "icons": {
+    "/process/step_1.svg": "/icons/process/step1.svg",
+    "/process/step_2.svg": "/icons/process/step2.svg",
+    "/process/step_3.svg": "/icons/process/step3.svg",
+    "/process/step_4.svg": "/icons/process/step4.svg",
+    "/process/step_5.svg": "/icons/process/step5.svg",
+    "/process/step_6.svg": "/icons/process/step6.svg",
+    "/process/step_7.svg": "/icons/process/step7.svg",
+    "/process/step_8.svg": "/icons/process/step8.svg",
     "ColorPalette": {
       "Actions.Grey": "#A4AABB",
       "Actions.Red": "#E0516B",
