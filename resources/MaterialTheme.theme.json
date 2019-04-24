@@ -138,6 +138,9 @@
     "ScrollBar.Transparent.hoverThumbColor": "#FF666F"
   },
   "icons": {
+    "/mac/tree_white_right_arrow.png": "/icons/nodes/treeRightArrow.png",
+    "/mac/tree_white_down_arrow.png": "/icons/nodes/treeDownArrow.png",
+    "/mac/tree_white_down_arrow@2x.png": "/icons/nodes/treeDownArrow@2x.png",
     "/process/step_1.svg": "/icons/process/step1.svg",
     "/process/step_2.svg": "/icons/process/step2.svg",
     "/process/step_3.svg": "/icons/process/step3.svg",
@@ -146,6 +149,14 @@
     "/process/step_6.svg": "/icons/process/step6.svg",
     "/process/step_7.svg": "/icons/process/step7.svg",
     "/process/step_8.svg": "/icons/process/step8.svg",
+    "/process/big/step_1.svg": "/icons/process/big/step1.svg",
+    "/process/big/step_2.svg": "/icons/process/big/step2.svg",
+    "/process/big/step_3.svg": "/icons/process/big/step3.svg",
+    "/process/big/step_4.svg": "/icons/process/big/step4.svg",
+    "/process/big/step_5.svg": "/icons/process/big/step5.svg",
+    "/process/big/step_6.svg": "/icons/process/big/step6.svg",
+    "/process/big/step_7.svg": "/icons/process/big/step7.svg",
+    "/process/big/step_8.svg": "/icons/process/big/step8.svg",
     "ColorPalette": {
       "Actions.Grey": "#A4AABB",
       "Actions.Red": "#E0516B",
