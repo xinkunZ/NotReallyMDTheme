@@ -1,14 +1,18 @@
 <idea-plugin>
-	<id>com.xinkun.theme.md</id>
-	<name>Material Design Dark-Theme</name>
-	<version>1.6</version>
-	<vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ/NotReallyMDTheme">xinkunZ's github</vendor>
+  <id>com.xinkun.theme.md</id>
+  <name>Material Design Dark-Theme</name>
+  <version>1.7</version>
+  <vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ/NotReallyMDTheme">xinkunZ's github</vendor>
 
-	<description><![CDATA[
+  <description><![CDATA[
       A jetbrains theme plugin use(may not) material design<br>
     ]]></description>
 
-	<change-notes><![CDATA[
+  <change-notes><![CDATA[
+    <h3>1.7</h3>
+    <ul>
+    <li>Remove the vote notification. Thanks to IntellijContest2019!</li>
+    </ul>
     <h3>1.5</h3>
     <ul>
     <li>replace the tree arrow(thanks for flaticon.com)</li>
@@ -20,31 +24,31 @@
     1.2 adjust some stripeColor<br/>
     1.1 adjust plugin page background color<br/>
     ]]>
-	</change-notes>
+  </change-notes>
 
-	<!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-	<idea-version since-build="191.0" />
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0" />
 
-	<!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-			 on how to target different products -->
-	<!--  enable plugin in all products -->
-	<depends>com.intellij.modules.lang</depends>
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!--  enable plugin in all products -->
+  <depends>com.intellij.modules.lang</depends>
 
-	<extensions defaultExtensionNs="com.intellij">
-		<!-- Add your extensions here -->
-		<themeProvider id="5eea4a19-c73f-4952-a924-0fb06e063e67" path="/MaterialTheme.theme.json" />
-	</extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="5eea4a19-c73f-4952-a924-0fb06e063e67" path="/MaterialTheme.theme.json" />
+  </extensions>
 
-	<actions>
-		<!-- Add your actions here -->
-	</actions>
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
 
-	<project-components>
-		<component>
-			<implementation-class>
-				com.xinky.component.ProjectNotifycation
-			</implementation-class>
-		</component>
-	</project-components>
+  <project-components>
+    <component>
+      <implementation-class>
+        com.xinky.component.ProjectNotifycation
+      </implementation-class>
+    </component>
+  </project-components>
 
 </idea-plugin>
