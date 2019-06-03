@@ -6,4 +6,4 @@ Material Design Theme for Jetbrains IDE 2019.1+
 
 # How to use
 * Install my plugin from [Jetbtains plugin repository](https://plugins.jetbrains.com/plugin/12134-material-design-dark-theme)
-* Choose NotReallyMDTheme in settings|appearance|theme
+* Choose NotReallyMDTheme in `File | Settings | Appearance & Behavior | Appearance`
