@@ -16,12 +16,15 @@
       "infoForeground": "#808080",
       "underlineColor": "#FF666F",
       "focusColor": "#FF666F",
-      "selectedBackground": "#32424A"
+      "selectedBackground": "#32424A",
+      "underlinedTabBackground": "#2B4057",
+      "hoverColor": "#415E83"
     },
     "EditorTabs": {
-      "inactiveMaskColor": "#1F292E",
-      "selectedBackground": "#2B4057"
+      "selectedBackground": "#FF666F"
     },
+    "DefaultTabs.inactiveMaskColor": "#FF666F",
+    "TabbedPane.hoverColor": "#415E83",
     "Popup": {
       "Header.activeBackground": "#415E83",
       "Header.inactiveBackground": "#415E83",
@@ -39,7 +42,7 @@
         "borderColor": "#293840"
       },
       "HeaderTab": {
-        "selectedBackground": "#3E6183",
+        "selectedBackground": "#415E83",
         "selectedInactiveBackground": "#3E6183",
         "hoverBackground": "#3E6183",
         "hoverInactiveBackground": "#3E6183"
@@ -103,11 +106,11 @@
         "headIconColor": "#FF666F"
       },
       "Log": {
-        "Commit.currentBranchBackground": "#212e43"
+        "Commit.currentBranchBackground": "#212E43"
       }
     },
     "Plugins": {
-      "lightSelectionBackground": "#212e43",
+      "lightSelectionBackground": "#212E43",
       "Tab.selectedBackground": "#415E83",
       "tagBackground": "#1F292E",
       "tagForeground": "#FF666F"
@@ -135,9 +138,15 @@
       "endBackground": "#FF666F",
       "startBackground": "#FF666F"
     },
+    "MenuBar.borderColor": "#FF666F",
+    "Menu.background": "#2D3639",
     "ScrollBar.Transparent.hoverThumbColor": "#FF666F"
   },
   "icons": {
+    "/general/arrowDown_dark.svg": "/icons/nodes/keyboard-down-arrow-button.svg",
+    "/general/arrowDown.svg": "/icons/nodes/keyboard-down-arrow-button.svg",
+    "/general/arrowDown_white.png": "/icons/nodes/treeDownArrow.png",
+    "/general/arrowDown@2x.png": "/icons/nodes/treeDownArrow@2x.png",
     "/mac/tree_white_right_arrow.png": "/icons/nodes/treeRightArrow.png",
     "/mac/tree_white_down_arrow.png": "/icons/nodes/treeDownArrow.png",
     "/mac/tree_white_down_arrow@2x.png": "/icons/nodes/treeDownArrow@2x.png",

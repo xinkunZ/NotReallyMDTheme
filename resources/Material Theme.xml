@@ -343,6 +343,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEBUGGER_SMART_STEP_INTO_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="1f292e" />
+        <option name="EFFECT_COLOR" value="d6455a" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="f77669" />
@@ -1851,5 +1857,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEBUGGER_SMART_STEP_INTO_TARGET" baseAttributes="SEARCH_RESULT_ATTRIBUTES" />
   </attributes>
 </scheme>
