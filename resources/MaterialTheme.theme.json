@@ -3,6 +3,15 @@
   "dark": true,
   "author": "zhangxinkun-_-@outlook.com",
   "editorScheme": "/Material Theme.xml",
+  "colors": {
+    "mySelectionColor": "#3E6183",
+    "myTabBlueColor": "#314763",
+    "myAccentRedColor": "#FF666F",
+    "myThemeBackgroundColor": "#1F292E",
+    "myHlightControlsColor": "#21384E",
+    "myControlsColor": "#293840",
+    "myDisableGreyColor": "#32424A"
+  },
   "ui": {
     "*": {
       "separatorColor": "#2B3940",
@@ -14,85 +23,85 @@
       "disabledText": "#8C8C8C",
       "inactiveForeground": "#8C8C8C",
       "infoForeground": "#808080",
+      "highlight": "#FF666F",
       "underlineColor": "#FF666F",
       "focusColor": "#FF666F",
       "selectedBackground": "#32424A",
       "underlinedTabBackground": "#2B4057",
       "hoverColor": "#415E83"
     },
-    "EditorTabs": {
-      "selectedBackground": "#FF666F"
+    "DefaultTabs": {
+      "inactiveMaskColor": "myAccentRedColor",
+      "hoverBackground": "mySelectionColor"
     },
-    "DefaultTabs.inactiveMaskColor": "#FF666F",
-    "TabbedPane.hoverColor": "#415E83",
     "Popup": {
-      "Header.activeBackground": "#415E83",
-      "Header.inactiveBackground": "#415E83",
-      "borderColor": "#21384E"
+      "Header.activeBackground": "mySelectionColor",
+      "Header.inactiveBackground": "mySelectionColor",
+      "borderColor": "mySelectionColor"
     },
     "SearchEverywhere": {
-      "Tab.selectedBackground": "#FF666F",
-      "Header.background": "#2B4057"
+      "Tab.selectedBackground": "myAccentRedColor",
+      "List.separatorForeground": "myAccentRedColor",
+      "Header.background": "myTabBlueColor"
     },
-    "Borders.ContrastBorderColor": "#1F292E",
-    "Borders.color": "#1F292E",
+    "Borders.ContrastBorderColor": "myThemeBackgroundColor",
+    "Borders.color": "myThemeBackgroundColor",
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#1F292E",
-        "borderColor": "#293840"
+        "inactiveBackground": "myThemeBackgroundColor"
       },
       "HeaderTab": {
-        "selectedBackground": "#415E83",
-        "selectedInactiveBackground": "#3E6183",
-        "hoverBackground": "#3E6183",
-        "hoverInactiveBackground": "#3E6183"
+        "selectedBackground": "mySelectionColor",
+        "selectedInactiveBackground": "mySelectionColor",
+        "hoverBackground": "mySelectionColor",
+        "hoverInactiveBackground": "mySelectionColor"
       },
       "Button": {
-        "selectedBackground": "#415E83",
-        "hoverBackground": "#3E6183"
+        "selectedBackground": "mySelectionColor",
+        "hoverBackground": "mySelectionColor"
       }
     },
-    "Button": {
+    "Component": {
       "arc": 0,
-      "startBackground": "#293840",
-      "endBackground": "#293840",
-      "shadowColor": "#293840",
-      "startBorderColor": "#293840",
-      "endBorderColor": "#293840",
-      "focusedBorderColor": "#293840",
+      "borderColor": "myDisableGreyColor"
+    },
+    "Button": {
+      "startBackground": "myControlsColor",
+      "endBackground": "myControlsColor",
+      "shadowColor": "myControlsColor",
+      "startBorderColor": "myControlsColor",
+      "endBorderColor": "myControlsColor",
+      "focusedBorderColor": "myControlsColor",
       "shadowWidth": 2,
       "default": {
         "foreground": "#FFFFFF",
-        "startBackground": "#21384E",
-        "endBackground": "#21384E",
-        "startBorderColor": "#21384E",
-        "endBorderColor": "#21384E",
-        "focusedBorderColor": "#21384E",
-        "shadowColor": "#FF666F"
+        "startBackground": "myHlightControlsColor",
+        "endBackground": "myHlightControlsColor",
+        "startBorderColor": "myHlightControlsColor",
+        "endBorderColor": "myHlightControlsColor",
+        "focusedBorderColor": "myHlightControlsColor",
+        "shadowColor": "myAccentRedColor"
       }
     },
     "Tree": {
-
     },
-    "ComboBoxButton.background": "#21384E",
+    "ComboBoxButton.background": "myHlightControlsColor",
     "ComboBox": {
-      "ArrowButton.nonEditableBackground": "#32424A",
-      "ArrowButton.iconColor": "EB5F67",
-      "nonEditableBackground": "#32424A"
+      "ArrowButton.nonEditableBackground": "myDisableGreyColor",
+      "ArrowButton.iconColor": "myAccentRedColor",
+      "nonEditableBackground": "myDisableGreyColor"
     },
     "TextField": {
-      "background": "#32424A",
-      "highlight": "#FF666F"
+      "background": "myDisableGreyColor"
     },
-    "Component.borderColor": "#32424A",
-    "StatusBar.borderColor": "#1F292E",
-    "SplitPane.highlight": "#1F292E",
+    "StatusBar.borderColor": "myThemeBackgroundColor",
+    "SplitPane.highlight": "myThemeBackgroundColor",
     "ProgressBar": {
-      "progressColor": "#FF666F",
-      "trackColor": "#314763",
-      "passedColor": "#FF666F",
-      "passedEndColor": "#314763",
-      "indeterminateStartColor": "#FF666F",
+      "progressColor": "myAccentRedColor",
+      "trackColor": "myTabBlueColor",
+      "passedColor": "myAccentRedColor",
+      "passedEndColor": "myTabBlueColor",
+      "indeterminateStartColor": "myAccentRedColor",
       "indeterminateEndColor": "#88373C"
     },
     "Notification": {
@@ -101,7 +110,7 @@
     },
     "VersionControl": {
       "GitLog": {
-        "headIconColor": "#FF666F"
+        "headIconColor": "myAccentRedColor"
       },
       "Log": {
         "Commit.currentBranchBackground": "#212E43"
@@ -109,34 +118,34 @@
     },
     "Plugins": {
       "lightSelectionBackground": "#212E43",
-      "Tab.selectedBackground": "#415E83",
-      "tagBackground": "#1F292E",
-      "tagForeground": "#FF666F"
+      "Tab.selectedBackground": "mySelectionColor",
+      "tagBackground": "myThemeBackgroundColor",
+      "tagForeground": "myAccentRedColor"
     },
-    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#32424A",
-    "Table.stripeColor": "#32424A",
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "myDisableGreyColor",
+    "Table.stripeColor": "myDisableGreyColor",
     "Link": {
-      "activeForeground": "#FF666F",
-      "hoverForeground": "#FF666F",
-      "pressedForeground": "#FF666F",
-      "visitedForeground": "#FF666F",
+      "activeForeground": "myAccentRedColor",
+      "hoverForeground": "myAccentRedColor",
+      "pressedForeground": "myAccentRedColor",
+      "visitedForeground": "myAccentRedColor",
       "secondaryForeground": "#88373C"
     },
     "ParameterInfo": {
-      "background": "#32424A",
-      "lineSeparatorColor": "#32424A",
+      "background": "myDisableGreyColor",
+      "lineSeparatorColor": "myDisableGreyColor",
       "currentOverloadBackground": "#314763",
-      "currentParameterForeground": "#FF666F"
+      "currentParameterForeground": "myAccentRedColor"
     },
     "CompletionPopup": {
-      "matchForeground": "#FF666F",
-      "matchSelectionForeground": "#FF666F"
+      "matchForeground": "myAccentRedColor",
+      "matchSelectionForeground": "myAccentRedColor"
     },
     "SearchMatch": {
-      "endBackground": "#FF666F",
-      "startBackground": "#FF666F"
+      "endBackground": "myAccentRedColor",
+      "startBackground": "myAccentRedColor"
     },
-    "ScrollBar.Transparent.hoverThumbColor": "#FF666F"
+    "ScrollBar.Transparent.hoverThumbColor": "myAccentRedColor"
   },
   "icons": {
     "/general/arrowDown_dark.svg": "/icons/nodes/keyboard-down-arrow-button.svg",

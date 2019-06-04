@@ -1,9 +1,9 @@
 <scheme name="Material Theme - zxk " version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-04-11T13:33:18</property>
+    <property name="created">2019-06-04T09:44:10</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2019.1.1.0.0</property>
-    <property name="modified">2019-04-11T13:33:23</property>
+    <property name="ideVersion">2019.2.0.0</property>
+    <property name="modified">2019-06-04T09:44:23</property>
     <property name="originalScheme">_@user_Material Theme - zxk</property>
   </metaInfo>
   <colors>
@@ -25,6 +25,8 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="80cbc4" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="546e7a" />
     <option name="FILESTATUS_MERGED" value="65738e" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
@@ -50,23 +52,34 @@
     <option name="SELECTION_FOREGROUND" value="7ca3b7" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="4f6269" />
     <option name="TEARLINE_COLOR" value="506d73" />
+    <option name="VISUAL_INDENT_GUIDE" value="" />
     <option name="WHITESPACES" value="2e3c43" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="99b89d" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
       <value>
-        <option name="FOREGROUND" value="a186" />
+        <option name="FOREGROUND" value="f77669" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
       <value>
-        <option name="FOREGROUND" value="30a138" />
+        <option name="FOREGROUND" value="d151d6" />
+      </value>
+    </option>
+    <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="47c9e2" />
       </value>
     </option>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR3">
       <value>
-        <option name="FOREGROUND" value="416fe2" />
+        <option name="FOREGROUND" value="d6c924" />
+      </value>
+    </option>
+    <option name="ANGLE_BRACKETS_RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="a4f9b2" />
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -341,12 +354,6 @@
       <value>
         <option name="FOREGROUND" value="afafaf" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEBUGGER_SMART_STEP_INTO_SELECTION">
-      <value>
-        <option name="BACKGROUND" value="1f292e" />
-        <option name="EFFECT_COLOR" value="d6455a" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -1667,12 +1674,47 @@
     </option>
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
       <value>
-        <option name="FOREGROUND" value="a196" />
+        <option name="FOREGROUND" value="ccbe" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="37c041" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="3749cc" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="df9d85" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="47c9e2" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="a4f9b2" />
       </value>
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
       <value>
-        <option name="FOREGROUND" value="a196" />
+        <option name="FOREGROUND" value="d67073" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="37c041" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="ffa4a4" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
@@ -1831,6 +1873,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="YAML_ANCHOR">
+      <value>
+        <option name="FOREGROUND" value="ffa4a4" />
+      </value>
+    </option>
     <option name="YAML_SCALAR_DSTRING">
       <value>
         <option name="FOREGROUND" value="f36e3a" />
@@ -1857,6 +1904,5 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DEBUGGER_SMART_STEP_INTO_TARGET" baseAttributes="SEARCH_RESULT_ATTRIBUTES" />
   </attributes>
 </scheme>
