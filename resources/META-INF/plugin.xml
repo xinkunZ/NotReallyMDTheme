@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.xinkun.theme.md</id>
   <name>Material Design Dark-Theme</name>
-  <version>1.7.1</version>
+  <version>1.7.3</version>
   <vendor email="zhangxinkun-_-@outlook.com" url="https://github.com/xinkunZ/NotReallyMDTheme">xinkunZ's github</vendor>
 
   <description><![CDATA[
@@ -9,6 +9,11 @@
     ]]></description>
 
   <change-notes><![CDATA[
+   <h3>1.7.2</h3>
+    <ul>
+    <li>fit to Intellij 2019.2 eap3</li>
+    <li>Replace tree arrows to MD icons</li>
+    </ul>
     <h3>1.7.2</h3>
     <ul>
     <li>fit to Intellij 2019.2 eap2</li>

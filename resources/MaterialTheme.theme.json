@@ -148,13 +148,12 @@
     "ScrollBar.Transparent.hoverThumbColor": "myAccentRedColor"
   },
   "icons": {
-    "/general/arrowDown_dark.svg": "/icons/nodes/keyboard-down-arrow-button.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/treeCollapsedSelected.svg": "/icons/nodes/right-arrow.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/treeExpandedSelected.svg": "/icons/nodes/down-arrow.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/treeCollapsed.svg": "/icons/nodes/right-arrow.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/treeExpanded.svg": "/icons/nodes/down-arrow.svg",
     "/general/arrowDown.svg": "/icons/nodes/keyboard-down-arrow-button.svg",
-    "/general/arrowDown_white.png": "/icons/nodes/treeDownArrow.png",
-    "/general/arrowDown@2x.png": "/icons/nodes/treeDownArrow@2x.png",
-    "/mac/tree_white_right_arrow.png": "/icons/nodes/treeRightArrow.png",
-    "/mac/tree_white_down_arrow.png": "/icons/nodes/treeDownArrow.png",
-    "/mac/tree_white_down_arrow@2x.png": "/icons/nodes/treeDownArrow@2x.png",
+    "/general/arrowRight.svg": "/icons/nodes/keyboard-right-arrow-button.svg",
     "/process/step_1.svg": "/icons/process/step1.svg",
     "/process/step_2.svg": "/icons/process/step2.svg",
     "/process/step_3.svg": "/icons/process/step3.svg",
