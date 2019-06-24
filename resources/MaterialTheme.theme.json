@@ -5,8 +5,10 @@
   "editorScheme": "/Material Theme.xml",
   "colors": {
     "mySelectionColor": "#3E6183",
+    "mySelectionAccentColor": "#212E43",
     "myTabBlueColor": "#314763",
     "myAccentRedColor": "#FF666F",
+    "mySecondAccentRedColor": "#88373C",
     "myThemeBackgroundColor": "#1F292E",
     "myHlightControlsColor": "#21384E",
     "myControlsColor": "#293840",
@@ -26,17 +28,19 @@
       "highlight": "#FF666F",
       "underlineColor": "#FF666F",
       "focusColor": "#FF666F",
-      "selectedBackground": "#32424A",
+      "selectedBackground": "#3E6183",
       "underlinedTabBackground": "#2B4057",
-      "hoverColor": "#415E83"
+      "hoverColor": "#415E83",
+      "hoverBackground": "#3E6183",
+      "pressedBackground": "#3E6183"
     },
+    "Separator.separatorColor": "myDisableGreyColor",
     "DefaultTabs": {
-      "inactiveMaskColor": "myAccentRedColor",
-      "hoverBackground": "mySelectionColor"
+      "inactiveMaskColor": "myAccentRedColor"
     },
     "Popup": {
       "Header.activeBackground": "mySelectionColor",
-      "Header.inactiveBackground": "mySelectionColor",
+      "Header.inactiveBackground": "myDisableGreyColor",
       "borderColor": "mySelectionColor"
     },
     "SearchEverywhere": {
@@ -48,24 +52,27 @@
     "Borders.color": "myThemeBackgroundColor",
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "myThemeBackgroundColor"
+        "borderColor": "myDisableGreyColor",
+        "inactiveBackground": "myThemeBackgroundColor",
+        "background": "myThemeBackgroundColor"
       },
       "HeaderTab": {
         "selectedBackground": "mySelectionColor",
         "selectedInactiveBackground": "mySelectionColor",
-        "hoverBackground": "mySelectionColor",
         "hoverInactiveBackground": "mySelectionColor"
       },
       "Button": {
-        "selectedBackground": "mySelectionColor",
-        "hoverBackground": "mySelectionColor"
+        "selectedBackground": "mySelectionColor"
       }
     },
-    "Component": {
-      "arc": 0,
-      "borderColor": "myDisableGreyColor"
+    "TextArea": {
+      "background": "myControlsColor",
+      "selectionBackground": "mySelectionColor"
     },
+    "TabbedPane.background": "myControlsColor",
+    "TextPane.background": "mySelectionColor",
     "Button": {
+      "arc": 0,
       "startBackground": "myControlsColor",
       "endBackground": "myControlsColor",
       "shadowColor": "myControlsColor",
@@ -82,8 +89,6 @@
         "focusedBorderColor": "myHlightControlsColor",
         "shadowColor": "myAccentRedColor"
       }
-    },
-    "Tree": {
     },
     "ComboBoxButton.background": "myHlightControlsColor",
     "ComboBox": {
@@ -102,7 +107,7 @@
       "passedColor": "myAccentRedColor",
       "passedEndColor": "myTabBlueColor",
       "indeterminateStartColor": "myAccentRedColor",
-      "indeterminateEndColor": "#88373C"
+      "indeterminateEndColor": "mySecondAccentRedColor"
     },
     "Notification": {
       "background": "#52316E",
@@ -113,11 +118,12 @@
         "headIconColor": "myAccentRedColor"
       },
       "Log": {
-        "Commit.currentBranchBackground": "#212E43"
+        "Commit.currentBranchBackground": "mySelectionAccentColor"
       }
     },
+    "TextArea.background": "myDisableGreyColor",
     "Plugins": {
-      "lightSelectionBackground": "#212E43",
+      "lightSelectionBackground": "mySelectionAccentColor",
       "Tab.selectedBackground": "mySelectionColor",
       "tagBackground": "myThemeBackgroundColor",
       "tagForeground": "myAccentRedColor"
@@ -129,12 +135,12 @@
       "hoverForeground": "myAccentRedColor",
       "pressedForeground": "myAccentRedColor",
       "visitedForeground": "myAccentRedColor",
-      "secondaryForeground": "#88373C"
+      "secondaryForeground": "mySecondAccentRedColor"
     },
     "ParameterInfo": {
       "background": "myDisableGreyColor",
       "lineSeparatorColor": "myDisableGreyColor",
-      "currentOverloadBackground": "#314763",
+      "currentOverloadBackground": "mySelectionColor",
       "currentParameterForeground": "myAccentRedColor"
     },
     "CompletionPopup": {
@@ -186,17 +192,9 @@
       "Objects.Purple": "#BC8AF2",
       "Objects.YellowDark": "#B79108",
       "Objects.BlackText": "#0D0E11",
-      "Checkbox.Focus.Wide.Dark": "#FF666F",
-      "Checkbox.Background.Default.Dark": "#F3F3F3",
-      "Checkbox.Border.Default.Dark": "#8A9199",
-      "Checkbox.Background.Selected.Dark": "#32424A",
-      "Checkbox.Border.Selected.Dark": "#32424A",
-      "Checkbox.Foreground.Selected.Dark": "#75B6FF",
-      "Checkbox.Focus.Thin.Default.Dark": "#98A0AA4C",
-      "Checkbox.Focus.Thin.Selected.Dark": "#FF666F",
-      "Checkbox.Background.Disabled.Dark": "#98A0AA4C",
-      "Checkbox.Border.Disabled.Dark": "#BABFC4",
-      "Checkbox.Foreground.Disabled.Dark": "#BABFC4"
+      "Checkbox.Focus.Thin.Selected.Dark": "#BC8AF2",
+      "Checkbox.Border.Selected.Dark": "#BC8AF2",
+      "Checkbox.Border.Selected": "#BC8AF2"
     }
   }
 }
