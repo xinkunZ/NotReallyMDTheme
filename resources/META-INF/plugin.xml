@@ -9,6 +9,10 @@
     ]]></description>
 
   <change-notes><![CDATA[
+  <h3>1.7.5</h3>
+    <ul>
+    <li>adjust checkbox colors</li>
+  </ul>
   <h3>1.7.4</h3>
     <ul>
     <li>fit to Intellij 2019.2 eap5</li>

@@ -144,8 +144,7 @@
       "currentParameterForeground": "myAccentRedColor"
     },
     "CompletionPopup": {
-      "matchForeground": "myAccentRedColor",
-      "matchSelectionForeground": "myAccentRedColor"
+      "matchForeground": "myAccentRedColor"
     },
     "SearchMatch": {
       "endBackground": "myAccentRedColor",
@@ -192,9 +191,8 @@
       "Objects.Purple": "#BC8AF2",
       "Objects.YellowDark": "#B79108",
       "Objects.BlackText": "#0D0E11",
-      "Checkbox.Focus.Thin.Selected.Dark": "#BC8AF2",
-      "Checkbox.Border.Selected.Dark": "#BC8AF2",
-      "Checkbox.Border.Selected": "#BC8AF2"
+      "Checkbox.Foreground.Selected.Dark": "#FF666F",
+      "Checkbox.Background.Default.Dark": "#32424A"
     }
   }
 }
