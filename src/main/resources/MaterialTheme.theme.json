@@ -92,6 +92,7 @@
     },
     "ComboBoxButton.background": "myHlightControlsColor",
     "ComboBox": {
+      //      sss
       "ArrowButton.nonEditableBackground": "myDisableGreyColor",
       "ArrowButton.iconColor": "myAccentRedColor",
       "nonEditableBackground": "myDisableGreyColor"
@@ -192,7 +193,9 @@
       "Objects.YellowDark": "#B79108",
       "Objects.BlackText": "#0D0E11",
       "Checkbox.Foreground.Selected.Dark": "#FF666F",
-      "Checkbox.Background.Default.Dark": "#32424A"
+      "Checkbox.Background.Default.Dark": "#32424A",
+      "Checkbox.Border.Disabled": "#32424A",
+      "Checkbox.Background.Disabled.Dark": "#1F292E"
     }
   }
 }

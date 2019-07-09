@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.9'
+}
+
+group 'com.xinky.me.theme'
+version '1.7.6-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://www.jetbrains.com/intellij-repository/snapshots' }
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version '191.7479.19'
+}
+
+patchPluginXml {
+    sinceBuild '192.5281.24'
+    untilBuild '192.*'
+    version project.getVersion().toString()
+    changeNotes """
+    <h3>1.7.6</h3>
+    <ul>
+    <li>build project with gradle</li>
+    </ul>
+    """
+}
+
+publishPlugin {
+    token 'perm:emhhbmd4aW5rdW45NA==.cGx1Z2ludG9rZW4=.omoChuhZfl5Ew5yH3SereGYzk3ypd7'
+}
