@@ -92,11 +92,12 @@
     },
     "ComboBoxButton.background": "myHlightControlsColor",
     "ComboBox": {
-      //      sss
       "ArrowButton.nonEditableBackground": "myDisableGreyColor",
       "ArrowButton.iconColor": "myAccentRedColor",
       "nonEditableBackground": "myDisableGreyColor"
     },
+    "Component.borderColor": "myDisableGreyColor",
+    "TextArea.background": "myDisableGreyColor",
     "TextField": {
       "background": "myDisableGreyColor"
     },
@@ -122,7 +123,6 @@
         "Commit.currentBranchBackground": "mySelectionAccentColor"
       }
     },
-    "TextArea.background": "myDisableGreyColor",
     "Plugins": {
       "lightSelectionBackground": "mySelectionAccentColor",
       "Tab.selectedBackground": "mySelectionColor",
