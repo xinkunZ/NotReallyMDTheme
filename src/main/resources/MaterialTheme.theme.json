@@ -31,9 +31,13 @@
       "selectedBackground": "#3E6183",
       "underlinedTabBackground": "#2B4057",
       "hoverColor": "#415E83",
-      "hoverBackground": "#3E6183",
       "pressedBackground": "#3E6183"
     },
+    "ToolWindow.HeaderTab.hoverInactiveBackground": "mySelectionColor",
+    "ToolWindow.Button.hoverBackground": "mySelectionColor",
+    "StatusBar.hoverBackground": "mySelectionColor",
+    "DefaultTabs.hoverBackground": "mySelectionColor",
+    "ActionButton.hoverBackground": "mySelectionColor",
     "Separator.separatorColor": "myDisableGreyColor",
     "DefaultTabs": {
       "inactiveMaskColor": "myAccentRedColor"
