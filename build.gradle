@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.xinky.me.theme'
-version '1.7.7'
+version '1.7.8'
 
 sourceCompatibility = 1.8
 
@@ -32,9 +32,9 @@ patchPluginXml {
     untilBuild '192.*'
     version project.getVersion().toString()
     changeNotes """
-    <h3>1.7.7</h3>
+    <h3>1.7.8</h3>
     <ul>
-    <li>fix TitlePanel.Button.hoverBackgroundColor for Windows borderless frame</li>
+    <li>find my logo icon back!</li>
     </ul>
     """
 }
