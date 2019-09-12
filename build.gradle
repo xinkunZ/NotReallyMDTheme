@@ -25,11 +25,12 @@ tasks.withType(JavaCompile) {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version '191.7479.19'
+    updateSinceUntilBuild false
 }
 
 patchPluginXml {
     sinceBuild '192.5281.24'
-    untilBuild '193.*'
+//    untilBuild '193.*'
     version project.getVersion().toString()
     changeNotes """
     <h3>1.7.9</h3>
