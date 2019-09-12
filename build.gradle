@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.xinky.me.theme'
-version '1.7.8'
+version '1.7.9'
 
 sourceCompatibility = 1.8
 
@@ -29,12 +29,12 @@ intellij {
 
 patchPluginXml {
     sinceBuild '192.5281.24'
-    untilBuild '192.*'
+    untilBuild '193.*'
     version project.getVersion().toString()
     changeNotes """
-    <h3>1.7.8</h3>
+    <h3>1.7.9</h3>
     <ul>
-    <li>find my logo icon back!</li>
+    <li>fix for 2019.3EAP!</li>
     </ul>
     """
 }
