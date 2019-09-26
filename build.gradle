@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.xinky.me.theme'
-version '1.7.9'
+version '1.7.10'
 
 sourceCompatibility = 1.8
 
@@ -36,6 +36,7 @@ patchPluginXml {
     <h3>1.7.9</h3>
     <ul>
     <li>fix for 2019.3EAP!</li>
+    <li>add some tree line align</li>
     </ul>
     """
 }

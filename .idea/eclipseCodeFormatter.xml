@@ -10,6 +10,7 @@
     </option>
     <option name="selectedGlobalProfile">
       <Settings>
+        <option name="disabledFileTypes" value="html" />
         <option name="eclipseVersion" value="ECLIPSE_44" />
         <option name="formatSeletedTextInAllFileTypes" value="false" />
         <option name="formatter" value="ECLIPSE" />

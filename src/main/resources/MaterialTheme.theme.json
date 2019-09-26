@@ -33,15 +33,13 @@
       "hoverColor": "#415E83",
       "pressedBackground": "#3E6183"
     },
+    "Tree.rowHeight": 24,
     "ToolWindow.HeaderTab.hoverInactiveBackground": "mySelectionColor",
     "ToolWindow.Button.hoverBackground": "mySelectionColor",
     "StatusBar.hoverBackground": "mySelectionColor",
     "DefaultTabs.hoverBackground": "mySelectionColor",
     "ActionButton.hoverBackground": "mySelectionColor",
     "Separator.separatorColor": "myDisableGreyColor",
-    "DefaultTabs": {
-      "inactiveMaskColor": "myAccentRedColor"
-    },
     "Popup": {
       "Header.activeBackground": "mySelectionColor",
       "Header.inactiveBackground": "myDisableGreyColor",
@@ -61,7 +59,6 @@
         "background": "myThemeBackgroundColor"
       },
       "HeaderTab": {
-        "selectedBackground": "mySelectionColor",
         "selectedInactiveBackground": "mySelectionColor",
         "hoverInactiveBackground": "mySelectionColor"
       },
