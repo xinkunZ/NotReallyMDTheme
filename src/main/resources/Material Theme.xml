@@ -1,10 +1,10 @@
-<scheme name="Material Theme - zxk " version="142" parent_scheme="Default">
+<scheme name="Material dark-Theme" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-06-04T09:44:10</property>
+    <property name="created">2019-10-08T16:41:48</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-06-04T09:44:23</property>
-    <property name="originalScheme">_@user_Material Theme - zxk</property>
+    <property name="ideVersion">2019.3.0.0</property>
+    <property name="modified">2019-10-08T16:41:53</property>
+    <property name="originalScheme">_@user_Material dark-Theme</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="445d63" />
@@ -15,6 +15,7 @@
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
+    <option name="DOCUMENTATION_COLOR" value="1f292e" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
     <option name="FILESTATUS_COPIED" value="659d9a" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -355,6 +356,14 @@
         <option name="FOREGROUND" value="afafaf" />
         <option name="FONT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="DEBUGGER_SMART_STEP_INTO_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="88373c" />
+      </value>
+    </option>
+    <option name="DEBUGGER_SMART_STEP_INTO_TARGET">
+      <value />
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
@@ -1750,7 +1759,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="1A2026" />
+        <option name="BACKGROUND" value="1a2026" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
