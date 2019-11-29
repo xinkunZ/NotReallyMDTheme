@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.xinky.me.theme'
-version '1.7.10'
+version '1.7.11'
 
 sourceCompatibility = 1.8
 
@@ -24,12 +24,16 @@ tasks.withType(JavaCompile) {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '191.7479.19'
+    version 'LATEST-EAP-SNAPSHOT'
     updateSinceUntilBuild false
 }
 
+runIde {
+    jvmArgs '-Xmx1G'
+}
+
 patchPluginXml {
-    sinceBuild '192.5281.24'
+    sinceBuild '191.8026.42'
 //    untilBuild '193.*'
     version project.getVersion().toString()
     changeNotes """
