@@ -37,9 +37,9 @@ patchPluginXml {
 //    untilBuild '193.*'
     version project.getVersion().toString()
     changeNotes """
-    <h3>1.7.9</h3>
+    <h3>1.7.12</h3>
     <ul>
-    <li>fix for 2019.3EAP!</li>
+    <li>fix for 2019.3!</li>
     <li>add some tree line align</li>
     </ul>
     """
