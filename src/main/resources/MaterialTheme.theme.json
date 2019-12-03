@@ -29,7 +29,7 @@
       "highlight": "myAccentRedColor",
       "underlineColor": "myAccentRedColor",
       "focusColor": "myAccentRedColor",
-      "underlinedTabBackground": "mySelectionAccentColor",
+      "underlinedTabBackground": "myTabBlueColor",
       "hoverColor": "myHoverColor",
       "selectionBackground": "mySelectionColor",
       "selectedBackground": "mySelectionColor",
